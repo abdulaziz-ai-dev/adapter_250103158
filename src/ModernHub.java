@@ -4,8 +4,7 @@ public class ModernHub {
     public ModernHub(List<SmartDevice> devices) {
         this.devices = devices;
     }
-    The Adapter Design Pattern (Java) • Student Tasksheet • Page of
-    Zeba Academy| Practical Lab Tasksheet
+
     public void activateAll() {
         for (SmartDevice d : devices) {
             d.turnOn();

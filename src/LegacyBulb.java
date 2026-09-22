@@ -1,4 +1,4 @@
-ublic class LegacyBulb {
+public class LegacyBulb {
     private int brightnessLevel = 0; // Raw range: 0 to 255
     private boolean filamentConnected = true;
     public void setBrightness(int level) {
